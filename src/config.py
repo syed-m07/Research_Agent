@@ -27,5 +27,5 @@ def get_tavily_api_key() -> str:
 
 
 # --- Model Configuration ---
-GROQ_MODEL_NAME = "llama-3.3-70b-versatile"
+GROQ_MODEL_NAME = "llama-3.1-8b-instant"
 AGENT_MAX_ITERATIONS = 3
