@@ -29,6 +29,12 @@ When you trigger the research agent, it follows a rigorous autonomous workflow:
 4. **Synthesis (`💭 analyzing findings...`)**: Once the agent is satisfied, it halts the search loop and exports its aggregated raw notes.
 5. **Report Generation (`📝 writing final structured report...`)**: A secondary formatting LLM reads the raw notes, strips conversational filler, and constructs the final Markdown file.
 
+<br>
+<div align="center">
+  <img src="./image-1.png" alt="Agent Background Process" width="800">
+</div>
+<br>
+
 ## 📝 Generated Output (`research_report.md`)
 The output is always saved safely to disk as a markdown file, successfully bypassing LLM "hallucination" by strictly extracting sources from the raw tool text. It adheres perfectly to the required 7-section assignment format:
 1. **Cover Page** (With Topic & Date)
